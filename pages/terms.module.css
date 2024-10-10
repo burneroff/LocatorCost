@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-family: regularFont;
+    max-width: 1440px;
+}
+.link{
+  text-decoration: none;
+}
+@font-face {
+    font-family: regularFont;
+    src: url("/fonts/Sora-Regular.ttf");
+  }
+
+  .logo {
+    font-family: logoFont;
+    font-size: rem(96px);
+    color: #333333;
+  }
+  .L {
+    color: #e20206;
+  }
